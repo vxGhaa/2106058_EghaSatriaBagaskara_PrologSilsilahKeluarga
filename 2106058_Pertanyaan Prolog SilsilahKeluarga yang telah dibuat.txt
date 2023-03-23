@@ -1,0 +1,43 @@
+1. mengetahui nenek dari Mary
+?- nenek(X, mary).
+X = amy ;
+X = karen.
+
+2. mengetahui saudara kandung peter
+?- saudara_kandung(X, peter).
+X = mary.
+
+3. mengetahui siapa cucu dari david
+?- cucu(X, david).
+X = peter ;
+X = mary.
+
+4. mengetahui siapa cucu perempuan dari jack
+?- cucu_perempuan(X, jack).
+X = mary ;
+
+5. mengetahui siapa kakek dari mary
+?- kakek(X, mary).
+X = david ;
+X = jack.
+
+6. mengetahui siapa ayah dari mary
+?- ayah(X, mary).
+X = john.
+
+7. mengetahui ibu dari susan
+?- ibu(X, susan).
+X = amy.
+
+8. mengetahui siapa cucu laki laki jack
+?- cucu_lelaki(X, jack).
+X = ray ; 
+X = peter.
+
+9. mengetahui siapa anak laki laki dari david
+?- anak_laki_laki(X, david).
+X = john.
+
+10. mengetahui siapa anak perempuan dari jack
+?- anak_perempuan(X, jack).
+X = susan.
